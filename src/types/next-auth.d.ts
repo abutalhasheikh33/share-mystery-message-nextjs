@@ -16,6 +16,8 @@ declare module 'next-auth' {
           username?: string;
         } & DefaultSession['user'];
       }
+
+      
 }
 
 declare module 'next-auth/jwt' {
